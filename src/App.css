@@ -1,0 +1,133 @@
+.mainExpenses{
+  background: #3B3B3B;
+  padding: 12px;
+}
+
+.mainExpenses h1{
+  font-family: Ubuntu;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36.77px;
+  text-align: left;
+  color: #FFFFFF;
+  
+}
+.innerExpWallet{
+padding: 32px;
+border-radius: 10px;
+opacity: 0px;
+background: #626262;
+display: flex;
+align-items: center;
+
+}
+.innerTransaction{
+  display: flex;
+}
+
+.card{
+width: 355.41px;
+height: 181px;
+border-radius: 15px;
+opacity: 0px;
+background: #9B9B9B;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 50px;
+
+}
+
+.card2{
+  width: 355.41px;
+
+  
+  }
+
+.card button{
+  align-items: center;
+}
+
+.cardTran{
+  width: 738.33px;
+height: 345.03px;
+border-radius: 15px;
+opacity: 0px;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px 0px #00000040;
+padding: 30px;
+}
+
+.cardTran2{
+  width: 417px;
+height: 345.03px;
+border-radius: 15px;
+opacity: 0px;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px 0px #00000040;
+padding: 30px;
+margin-left: 40px;
+}
+
+.tranMain{
+  display: flex;
+}
+
+@media (max-width: 1080px) {
+.innerExpWallet{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.card{
+  margin-bottom: 40px;
+  margin-right: 0px;
+}
+.tranMainMobile{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tranMain{
+  display: block;
+}
+.cardTran{
+  width: auto;
+
+}
+
+.cardTran2{
+  width:auto;
+  margin-top: 40px;
+  margin-left: 0px;
+}
+}
+
+@media screen and (min-width: 1081px) and (max-width: 1280px) {
+  .innerExpWallet{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .card{
+    margin-bottom: 40px;
+    margin-right: 40px;
+  }
+  .tranMain{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .cardTran{
+    width: 80%;
+    margin: auto;
+  }
+  
+  .cardTran2{
+    width: 80%;
+    margin-left: 40px;
+    
+  }
+  }
